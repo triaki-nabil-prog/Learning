@@ -1,0 +1,84 @@
+body{
+background-color: burlywood;
+background-image: url(../img/moroccan-flower.png);
+color: beige;
+font-size: 21px;
+
+}
+
+P {
+color: #7a2b2b;
+font-weight: bold;
+
+}
+
+.intro{
+    font-size: 30px;
+    color: black;
+    
+}
+
+
+h1 {
+font-size: 35px;
+color: rgb(40, 44, 77);
+}
+
+.highlight{
+    background: yellow;
+}
+
+.top-section {
+    background: greenyellow;
+   
+}
+.bottom-section { 
+ 
+    background: greenyellow;
+
+}
+
+/* the CSS box model*/
+/*
+ margin empty space around my element
+border a border around my element
+padding empty space with background around my element
+
+all of these add on tope of the width and hight 
+*/
+.box{
+    background-image: url(../img/landscape.jpg);
+    width: 300px;
+
+
+    margin: 100px ;
+    border: 10px solid green;
+    padding: 50px 50px;
+
+    background-size: cover;
+    background-position: center;
+}
+    
+
+ol {
+    background: #ff9999;
+    padding: 20px;
+  }
+  
+  ul {
+    background: #3399ff;
+    padding: 20px;
+  }
+  
+  ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+  }   
