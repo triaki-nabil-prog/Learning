@@ -1,0 +1,70 @@
+body{
+    max-width: 600px;
+    margin : 0px auto;
+   
+    background: #eee;
+    font-family: sans-serif;
+}
+
+.one {
+    background: pink;
+    border: 3px solid blue;
+
+    padding: 32px;
+    margin: 12px;
+
+}
+
+.two {
+    background: lightblue;
+    border: 3px solid purple;
+    margin-bottom: 48px;
+}
+.three{
+    background: peachpuff;
+    border: 3px solid brown;
+    width: 200px;
+
+    padding: 32px;
+    margin-left: auto;
+}
+
+
+  
+  .card {
+    width: 400px;
+    background: #fff;
+    margin: 16px auto;
+   padding: 8px;
+
+  }
+  
+  .title {
+    font-size: 16px;
+    background: #e3f4ff;
+    
+    margin-bottom: 8px;
+    padding: 8px;
+  }
+  
+  .content {
+    background: #e3f4ff;
+    
+    padding: 16px 8px;
+    margin-bottom: 8px;
+  }
+  
+  .button-container {
+    text-align: center;
+    background: #e3f4ff;
+    padding: 8px;
+    
+  }
+  
+  button {
+    display: block;
+    background: white;
+    border: 1px solid #eee;
+    padding: 5px;
+    margin: 0px auto;
+  }
