@@ -60,9 +60,12 @@
   }
   
   .photo-grid-item {
+background: #5995DA;
     border: 1px solid #fff;
     width: 300px;
     height: 300px;
+    flex: 1;
+    
   }
 
   .first-item{
@@ -87,12 +90,13 @@
     border: 1px solid #fff;
     background-color: #D6E9FE;
     height: 200px;
-    flex: 1;
+    flex: 0 0 auto;
+    width: 200px;
   }
  
   .footer-one,
 .footer-three {
   background-color: #5995DA;
-  flex: initial;
+  flex: 1;
   width: 300px;
 }
